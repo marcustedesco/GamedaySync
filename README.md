@@ -1,3 +1,13 @@
+## GamedaySync
+
+This is a project attempting to synchronize timing on multiple devices to create visual stadium displays. If timing can be synchronized, every device can be used as one "pixel" in a larger picture. In this way animated displays can be designed and pushed in real time. This is a work in progress...
+
+Intially this project was built in PHP using a custom CodeIgniter framework implementing Bootstrap. All necessary files should be included in this repo. If you have trouble installing, please refer to the instructions for installing CodeIgniter below.
+
+Marcus
+
+-------------------------------------------------------------------------------------------------------
+
 ## Introduction
 
 CodeIgniter Bootstrap kick starts the development process of the web development process by including Twitter Bootstrap into CodeIgniter. It also includes certain libraries such as AWS and Facebook in-case you are developing applications requiring those SDKs. So stop writing the same code over again and start working on your idea.
