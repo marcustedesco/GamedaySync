@@ -1,0 +1,35 @@
+#home {
+	/*background-color: green;*/
+	background: linear-gradient(to bottom, white -50%, green);
+
+}
+#portfolio{
+	background-color: red;
+	background-image: linear-gradient(to bottom, white -99%, red);
+}
+#about{
+	background-color: yellow;
+	background-image: linear-gradient(to bottom, white, yellow);
+}
+#contact{
+	background-color: black;
+	background-image: linear-gradient(to bottom, white, black);
+}
+.panel {
+	width:100%;
+	/*position: absolute;*/
+	text-align: center;
+	/*margin: -4px 0 8px 0;*/
+	margin: 0 0 0 0;
+	border-radius: 0;
+	/*
+	-webkit-box-shadow: 0 2px 8px 0px black;
+       -moz-box-shadow: 0 2px 8px 0px black;
+            box-shadow: 0 2px 8px 0px black;
+    */
+    /*background: -moz-linear-gradient(center top , rgba(255,0,0,0.75) 2%, rgba(255,0,0,0) 31px);
+    background: -moz-linear-gradient(center top , rgba(255,0,0,0.75) 2%, rgba(255,0,0,0) 31px);
+    background: -webkit-gradient(linear, center bottom , white 2%, white 31px);*/
+    /*background-image: linear-gradient(to bottom, white, green);*/
+
+}

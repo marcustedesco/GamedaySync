@@ -1,0 +1,322 @@
+/**
+ * All your custom CSS should go into this file
+ */
+
+
+html {
+	font-size: 20px;
+}
+body {
+	background-color: #009ACD;
+	padding: 50px;
+	text-align: center;
+  
+}
+h2, p {
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+}
+
+.container .jumbotron {
+  border-radius: 6px;
+}
+
+i, a, span {
+	text-decoration: none !important;
+}
+
+.center {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.centerV{
+    margin-top: 500;
+    margin-bottom: auto;
+}
+.bold {
+  font-size: 50px;
+}
+
+/* Wrapper */
+.icon-button {
+	background-color: white;
+	border-radius: 3.6rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.0rem;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 3.6rem;
+	text-decoration: none;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 3.6rem;
+	height: 3.6rem;
+	border-radius: 3.6rem;
+	margin: -1.8rem;
+	text-decoration: none;
+
+}
+.twitter span {
+	background-color: #4099ff;
+}
+.facebook span {
+	background-color: #3B5998;
+}
+.linkedin span {
+	background-color: #4875B4;
+}
+.instagram span {
+	background-color: #4E433C;
+}
+.gmail span {
+  background-color: #C63D2D;
+}
+
+
+/* Icons */
+.icon-button i {
+	background: none;
+	color: white;
+	height: 3.6rem;
+	left: 0;
+	line-height: 3.6rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 3.6rem;
+	z-index: 10;
+}
+
+.icon-button .icon-twitter {
+	color: #4099ff;
+}
+.icon-button .icon-facebook {
+	color: #3B5998;
+}
+.icon-button .icon-linkedin {
+	color: #4875B4;
+}
+.icon-button .icon-envelope {
+	color: #C63D2D;
+}
+.icon-button .icon-instagram {
+	color: #4E433C;
+}
+
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-facebook,
+.icon-button:hover .icon-linkedin,
+.icon-button:hover .icon-envelope,
+.icon-button:hover .icon-instagram
+{
+	color: white;
+}
+
+/*---------------------------------------------------------------------*/
+/*------------------button settings------------------------------------*/
+/*---------------------------------------------------------------------*/
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #FF6600;
+  border-color: #A86107;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #993300;
+  border-color: #A86107;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  /*change this to a dark orange later*/
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  /* Pad bottom by footer height */
+  padding: 0 0 20px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 100px;
+}
+
+html,
+body {
+  height: 95%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+
+/*---------------------------------------------------------------------*/
+/*------------------sample cirles make sprite--------------------------*/
+/*---------------------------------------------------------------------*/
+/*
+.contact-icons {
+  width: 340px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 400px) {
+  .contact-icons {
+    //margin-left: -14px;
+  	//width: 284px;
+  
+    width: 255px;
+  }
+}
+.contact-icons .contact-icon {
+  background-image: url(../images/sprite.png);
+  border: 2px solid #cfcfcf;
+  width: 65px;
+  height: 65px;
+  -webkit-border-radius: 65px;
+  -moz-border-radius: 65px;
+  border-radius: 65px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  float: left;
+  margin: 10px;
+  -webkit-transition: border 0.3s, background-position 0.3s;
+  -moz-transition: border 0.3s, background-position 0.3s;
+  -ms-transition: border 0.3s, background-position 0.3s;
+  -o-transition: border 0.3s, background-position 0.3s;
+  transition: border 0.3s, background-position 0.3s;
+}
+@media screen and (max-width: 400px) {
+  .contact-icons .contact-icon.codepen {
+    display: none;
+  }
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .contact-icons .contact-icon {
+    background-image: url(../images/retina-contact-icons.png);
+    background-size: 244px 122px;
+  }
+}
+.contact-icons .contact-icon:hover.twitter {
+  background-position: 0 -466px;
+  border: 2px solid #32abdf;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .contact-icons .contact-icon:hover.twitter {
+    background-position: 0 -489px;
+  }
+}
+.contact-icons .contact-icon:hover.linkedin {
+  background-position: -61px -466px;
+  border: 2px solid #1875b2;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .contact-icons .contact-icon:hover.linkedin {
+    background-position: -61px -488px;
+  }
+}
+.contact-icons .contact-icon:hover.email {
+  background-position: -123px -467px;
+  border: 2px solid #e24e4b;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .contact-icons .contact-icon:hover.email {
+    background-position: -123px -490px;
+  }
+}
+.contact-icons .contact-icon:hover.codepen {
+  background-position: -184px -466px;
+  border: 2px solid #72616e;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .contact-icons .contact-icon:hover.codepen {
+    background-position: -184px -488px;
+  }
+}
+.contact-icons .contact-icon.twitter {
+  background-position: 0 -527px;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .contact-icons .contact-icon.twitter {
+    background-position: 0 -550px;
+  }
+}
+.contact-icons .contact-icon.linkedin {
+  background-position: -61px -526px;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .contact-icons .contact-icon.linkedin {
+    background-position: -61px -549px;
+  }
+}
+.contact-icons .contact-icon.email {
+  background-position: -123px -528px;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .contact-icons .contact-icon.email {
+    background-position: -123px -551px;
+  }
+}
+.contact-icons .contact-icon.codepen {
+  background-position: -184px -525px;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .contact-icons .contact-icon.codepen {
+    background-position: -184px -548px;
+  }
+}
+*/
+/*---------------------------------------------------------------------*/
+/*------------------end sample cirles make sprite--------------------------*/
+/*---------------------------------------------------------------------*/
